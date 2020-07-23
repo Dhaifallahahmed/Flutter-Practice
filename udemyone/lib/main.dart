@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       accentColor: Colors.deepPurple,
       brightness: Brightness.light,
       ),
+      //here we go to the home.dart file
       home: HomePage()
     );
   }

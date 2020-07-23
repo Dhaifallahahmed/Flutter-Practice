@@ -5,9 +5,7 @@ class ProductPage extends StatelessWidget{
   ProductPage(this.title,this.imageUrl);
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
-      
       appBar: AppBar(
         title:Text(title),
       ),

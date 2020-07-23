@@ -7,6 +7,7 @@ class HomePage extends StatelessWidget{
       appBar: AppBar(
         title:Text("EasyList"),
       ),
+      //here we go to the product_manager.dart 
       body: ProductManager(null),
     );
   }
